@@ -1,0 +1,41 @@
+body{
+    background: #bdc3c7
+}
+    
+    h2{
+    color:purple;
+       
+    }
+    
+    h1 {
+     color: #9b59b6   
+    }
+
+    h2 {
+        color: orange;
+            }
+    li {
+    color: #351ea7;
+    }
+
+    p{
+        background: yellow;
+    }
+
+    input {
+        border: 3px red;
+    }
+    p.hello{
+        background: white;
+
+    }
+    #special{
+                border: 2px solid #12327F;
+    }
+    input[type=text]{
+        background:grey;
+    }
+    
+    div:nth-of-type(3){
+         background:pink;
+    }
