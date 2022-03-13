@@ -11,7 +11,7 @@ body{
      color: #9b59b6   
     }
 
-    h2 {
+    h2{
         color: orange;
             }
     li {
@@ -36,6 +36,13 @@ body{
         background:grey;
     }
     
-    div:nth-of-type(3){
-         background:pink;
+    div:nth-of-type(3) p{
+        background: pink;
+    }
+    div:nth-of-type(3) p:nth-of-type(2){
+        border: 5px solid white;
+    }
+    em{
+        font: white;
+
     }
