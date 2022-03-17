@@ -1,0 +1,45 @@
+.orders {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: center;
+    flex: 0 0 350px;
+    
+}
+.orders img {
+    max-width: 100%;
+    margin-bottom: 28px;
+}
+.orders h4 {
+    font-size: 38px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Bebas Neue", cursive;
+    margin-bottom: 36px;
+
+}
+.orders p {
+    font-size: 17px;
+    line-height: 1.5;
+    color: #3d2514;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-bottom: 36px;
+        
+}
+
+.orders button {
+    width: 195px;
+    height: 57px;
+    background-color: #bf2222;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Alfa Slab One";
+    text-transform: uppercase;
+    margin-bottom: 130px;
+    cursor: pointer;
+    
+}

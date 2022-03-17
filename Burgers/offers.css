@@ -1,9 +1,9 @@
 .offers {
     max-width: 1440px;
-    margin: auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
-    padding: 70px 108px;
+    padding: 0 108px;
 }
 .burger-headings {
     position: absolute;
@@ -11,21 +11,20 @@
     left: 25px;
     font-family: 'Bebas Neue', cursive;
     color: white;
-    width: 33%;
+    width: 30%;
    
 }
 
-.burger-headings:first-of-type {
-    width: 50px;
-
-}   
+.half-width {
+    width: 50%;
+}
 
 .burger-headings h4 {
     font-size: 28px;
 }
 
 .burger-headings h2 {
-    font-size: 36px;
+    font-size: 38px;
 }
 
 .two-cards {
