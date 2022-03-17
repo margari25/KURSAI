@@ -56,7 +56,7 @@
     background-color: #dcdcdc;
     display: inline-block;
     margin-right: 4px;
-      
+    cursor: pointer;      
     
 }
 .events li:first-of-type {
