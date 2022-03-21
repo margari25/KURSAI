@@ -8,41 +8,67 @@ body{
     }
     
     h1 {
-     color: #9b59b6   
+     color: #9b59b6;
+        
+    }
+    h1:hover{
+        color:blue;
+        cursor: pointer;
     }
 
-    h2{
+    h2 {
         color: orange;
             }
     li {
     color: #351ea7;
     }
 
-    p{
+    p {
         background: yellow;
     }
 
-    input {
-        border: 3px red;
+    input  {
+        border: 3px solid red
     }
-    p.hello{
+    .hello {
         background: white;
 
     }
-    #special{
-                border: 2px solid #12327F;
+    #special {
+
+        border: 2px solid #12327F;
     }
+    #special::first-letter {
+        font-size: 100px;
+        color: green;
+    }
+    div p {
+        font-size: 25px
+    }
+
     input[type=text]{
         background:grey;
     }
     
     div:nth-of-type(3) p{
-        background: pink;
+        background: pink;  
     }
     div:nth-of-type(3) p:nth-of-type(2){
         border: 5px solid white;
     }
-    em{
-        font: white;
+    em {
+        color: white;
+        font-size:20px)
+        
+    }
+    input:checked{
+        margin-left: 50px;
+        
+    }
+    label{
+        text-transform: uppercase;
+    }
 
+    a:visited {
+        color: grey;
     }

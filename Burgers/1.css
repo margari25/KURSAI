@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side img{
+    margin: 52px 56px; 
+}
+    
+.right-side .express-container {
+    padding-right: 56px;
+    padding-top: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 26px;
+    font-size: 17px;
+    color: #3d2514;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+.right-side .express-container img {
+    margin-right: 8px;
+}
+
+.right-side nav a {
+    padding-right: 56px;
+    text-decoration: none;
+    font-size: 21px;
+    letter-spacing: 3px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Bebas Neue";
+}
