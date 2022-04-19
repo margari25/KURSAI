@@ -1,0 +1,18 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+div div {
+  width: 60px;
+  height: 60px;
+  background: yellow;
+}
+
+div div div {
+  width: 30px;
+  height: 30px;
+  background: pink;
+}
+/*# sourceMappingURL=style.css.map */
